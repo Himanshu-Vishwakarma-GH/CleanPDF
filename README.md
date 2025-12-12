@@ -1,4 +1,7 @@
 # PDF Simple Toolset
+![Release](https://img.shields.io/github/v/release/Himanshu-Vishwakarma-GH/CleanPDF)
+![Downloads](https://img.shields.io/github/downloads/Himanshu-Vishwakarma-GH/CleanPDF/total)
+![License](https://img.shields.io/github/license/Himanshu-Vishwakarma-GH/CleanPDF)
 
 **Professional PDF Management for Windows.**
 
