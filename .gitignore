@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.spec
+*.exe
+
+# Logs
+*.log
+tests_output/
+
+# Virtual Env
+venv/
+env/
+.env
+
+# Editor
+.vscode/
+.idea/
+
+# Custom
+*.tmp
+temp_*.pdf

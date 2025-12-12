@@ -1,0 +1,9 @@
+@echo off
+echo Installing requirements...
+pip install -r requirements.txt
+echo Generating Icon...
+python -c "from PIL import Image; Image.new('RGB', (64, 64), color='teal').save('app.ico')"
+echo Building EXE...
+python -m PyInstaller --noconfirm --onefile --windowed --icon "app.ico" --name "PDFSimpleToolset" --clean main.py
+echo Done. Check 'dist' folder.
+pause
