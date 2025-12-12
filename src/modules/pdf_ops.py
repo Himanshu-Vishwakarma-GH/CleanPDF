@@ -89,13 +89,13 @@ class PDFOps:
     @staticmethod
     def extract_text(input_path, output_path):
         try:
-            import pdfplumber
-            with pdfplumber.open(input_path) as pdf:
-                text_content = []
-                for i, page in enumerate(pdf.pages):
-                    text = page.extract_text()
-                    if text:
-                        text_content.append(f"--- Page {i+1} ---\n{text}\n")
+            reader = PdfReader(input_path)
+            text_content = []
+            
+            for i, page in enumerate(reader.pages):
+                text = page.extract_text()
+                if text:
+                    text_content.append(f"--- Page {i+1} ---\n{text}\n")
             
             total_chars = sum(len(t) for t in text_content)
             
