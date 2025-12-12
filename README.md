@@ -11,6 +11,8 @@ PDF Simple Toolset is a streamlined, secure, and powerful application to handle 
 - **📉 Compress PDF**: Reduce file size for email or web upload (Low, Medium, High compression).
 - **🖼️ Images to PDF**: Convert your Scans, Photos, or Screenshots (JPG/PNG) into a professional PDF document.
 - **📝 Extract Text**: Pull plain text out of any PDF document for editing.
+- **🔒 Protection**: Secure your documents by adding password encryption or decrypting locked files.
+- **📑 Visual Editor (Page Manager)**: Reorder, rotate, or delete specific pages using a simple list interface.
 
 ## Installation
 
@@ -30,6 +32,18 @@ No installation required!
 2.  Select your file.
 3.  Enter a page range (e.g., `1-3, 5`) or leave empty to split every page.
 4.  Click **Split PDF**.
+
+### Protecting a PDF
+1.  Click **Protection**.
+2.  Select your file.
+3.  Choose **Lock (Encrypt)** or **Unlock (Decrypt)**.
+4.  Enter the password and run the operation.
+
+### Visual Page Editor
+1.  Click **Visual Editor**.
+2.  Load a PDF document.
+3.  Use the controls to **Rotate**, **Delete**, or **Move** pages up/down in the list.
+4.  Click **Save PDF** to write your changes to a new file.
 
 ### Themes
 The application runs in a **Premium Dark Mode** optimized for focus and reduced eye strain.
